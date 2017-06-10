@@ -42,18 +42,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Factory.cs" />
-    <Compile Include="IFactory.cs" />
-    <Compile Include="Product.cs" />
+    <Compile Include="Classes\FactoryA\FactoryA.cs" />
+    <Compile Include="Classes\FactoryB\FactoryB.cs" />
+    <Compile Include="Classes\FactoryB\ProductB.cs" />
+    <Compile Include="Interfaces\IFactory.cs" />
+    <Compile Include="Interfaces\IProduct.cs" />
+    <Compile Include="Classes\FactoryA\ProductA.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Classes\" />
-    <Folder Include="Interfaces\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

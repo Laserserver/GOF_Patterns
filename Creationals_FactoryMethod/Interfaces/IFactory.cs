@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace Creationals_FactoryMethod
 {
-    class Product
+    interface IFactory
     {
+        IProduct CreateProduct();
     }
 }
