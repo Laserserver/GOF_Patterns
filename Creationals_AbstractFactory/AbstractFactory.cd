@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Creationals_AbstractFactory.Program">
+    <Position X="1" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAADAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Creationals_AbstractFactory.Factory2.ProductA2">
+    <Position X="9" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Factory2\ProductA2.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Orientation="Left" Position="0.935" />
+  </Class>
+  <Class Name="Creationals_AbstractFactory.Factory2.ConcreteFactory2">
+    <Position X="9.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAwAAAAAAA=</HashCode>
+      <FileName>Factory2\ConcreteFactory2.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Orientation="Left" Position="0.727" />
+  </Class>
+  <Class Name="Creationals_AbstractFactory.Factory2.ProductB2">
+    <Position X="9" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Factory2\ProductB2.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Orientation="Left" Position="0.55" />
+  </Class>
+  <Class Name="Creationals_AbstractFactory.Factory1.ConcreteFactory1">
+    <Position X="4.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAwAAAAAAA=</HashCode>
+      <FileName>Factory1\ConcreteFactory1.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Orientation="Right" Position="0.706" />
+  </Class>
+  <Class Name="Creationals_AbstractFactory.Factory1.ProductA1">
+    <Position X="4.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Factory1\ProductA1.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Orientation="Right" Position="0.904" />
+  </Class>
+  <Class Name="Creationals_AbstractFactory.Factory1.ProductB1">
+    <Position X="4.5" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Factory1\ProductB1.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Orientation="Right" Position="0.55" />
+  </Class>
+  <Interface Name="Creationals_AbstractFactory.IAbstractFactory">
+    <Position X="6.75" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAwAAAAAAA=</HashCode>
+      <FileName>Interfaces\IAbstractFactory.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Creationals_AbstractFactory.IProductA">
+    <Position X="6.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IProductA.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Creationals_AbstractFactory.IProductB">
+    <Position X="6.75" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IProductB.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

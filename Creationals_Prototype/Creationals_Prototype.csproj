@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{8149EFC7-5B11-4B06-BA1B-2E6E7471B301}</ProjectGuid>
+    <ProjectGuid>{8B1D57CF-A45E-40C5-BD93-C304FB408C55}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Creationals_FactoryMethod</RootNamespace>
-    <AssemblyName>Creationals_FactoryMethod</AssemblyName>
+    <RootNamespace>Creationals_Prototype</RootNamespace>
+    <AssemblyName>Creationals_Prototype</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,19 +42,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Classes\FactoryA\FactoryA.cs" />
-    <Compile Include="Classes\FactoryB\FactoryB.cs" />
-    <Compile Include="Classes\FactoryB\ProductB.cs" />
-    <Compile Include="Interfaces\IFactory.cs" />
-    <Compile Include="Interfaces\IProduct.cs" />
-    <Compile Include="Classes\FactoryA\ProductA.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Interface\IPrototype.cs" />
+    <Compile Include="Classes\Prototype1.cs" />
+    <Compile Include="Classes\Prototype2.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <None Include="FactoryMethod.cd" />
   </ItemGroup>
-  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

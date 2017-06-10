@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{8149EFC7-5B11-4B06-BA1B-2E6E7471B301}</ProjectGuid>
+    <ProjectGuid>{A7BD3C79-D69B-43D7-B50F-19CE922B5A7C}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Creationals_FactoryMethod</RootNamespace>
-    <AssemblyName>Creationals_FactoryMethod</AssemblyName>
+    <RootNamespace>Creationals_Builder</RootNamespace>
+    <AssemblyName>Creationals_Builder</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,19 +42,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Classes\FactoryA\FactoryA.cs" />
-    <Compile Include="Classes\FactoryB\FactoryB.cs" />
-    <Compile Include="Classes\FactoryB\ProductB.cs" />
-    <Compile Include="Interfaces\IFactory.cs" />
-    <Compile Include="Interfaces\IProduct.cs" />
-    <Compile Include="Classes\FactoryA\ProductA.cs" />
+    <Compile Include="Classes\Builders\Builder1.cs" />
+    <Compile Include="Classes\Builders\Builder2.cs" />
+    <Compile Include="Classes\Product.cs" />
+    <Compile Include="Interface\IBuilder.cs" />
+    <Compile Include="Classes\Director.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <None Include="FactoryMethod.cd" />
   </ItemGroup>
-  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
