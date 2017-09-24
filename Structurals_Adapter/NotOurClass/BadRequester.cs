@@ -11,7 +11,7 @@ namespace Structurals_Adapter
         public void SendRequest(string message)
         {
             Console.WriteLine("Request " + message);
-            //Сас
+            //Сос
         }
     }
 }
